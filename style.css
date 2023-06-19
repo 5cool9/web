@@ -1,0 +1,82 @@
+/* body {
+    background-image : linear-gradient(to top,rgba(0,0,0,0.8), rgba(0,0,0,0.2),url(images/main2.png));
+    background-image: url("images/main.jpg");
+    background-size : cover;
+    background-position : center top;
+    background-attachment : fixed;
+} */
+
+/* 페이지 전체 크기로 설정 */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 사진이 페이지 전체를 꽉 채우도록 설정 */
+  header {
+    background-image: url("images/main.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* 뷰포트 높이(Vieport Height)를 100%로 설정하여 페이지 전체 높이로 지정합니다. */
+    display: flex;
+    flex-direction: column;
+    justify-content: fixed-end;
+    align-items: center;
+  }
+  
+  h1, h2 {
+    color: white;
+    font-family: 'Gugi', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+  }
+
+  h1.title-home {
+    color: white;
+    font-size: 30px;
+  }
+  h2.sub-title-home {
+    color: white;
+    margin-bottom: -15px;
+    font-size: 20px;
+  }
+  h3.sub-title-home {
+    color: white;
+    margin-bottom: -15px;
+    font-size: 18px;
+  }
+  /* h2와 h3 요소의 겹침 문제 해결 */
+.sub-title-home {
+    margin-top: 1rem;
+  }
+  
+
+  /* 네비게이션 영역 */
+  .nav-link:hover,
+  .nav-link.active {
+    color: #ffc107 !important;
+  }
+  
+/* 네비게이션 바를 투명하게 설정 */
+.navbar {
+    background-color: transparent !important;
+  }
+  
+  /* 오픈캔버스가 열렸을 때 배경 색상 지정 */
+  .offcanvas.show {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+  }
+  
+  /* 오픈캔버스 내용 색상 설정 */
+  .offcanvas-body {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  /* 검색 버튼의 배경색과 글자 색상 변경 */
+.btn-success {
+    background-color: #ffc107; /* 원하는 배경색으로 변경 */
+  }
+  
+  
