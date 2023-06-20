@@ -9,7 +9,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        
         <link rel = "preconnect" href = "https://fonts.googleapis.com">
         <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
         <link href = "https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans+KR:wgt@400;700&display=swap" rel = "stylesheet">
@@ -21,25 +21,7 @@
     background-size: contain;
   }
 
-  body {
-        overflow-x: hidden;
-      }
-      .header-content {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 100;
-        padding: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.8);
-      }
-      .main-content {
-        margin-top: 100px; /* 네비게이터의 높이에 맞게 조정 */
-      }
+  
   
 </style>
 
@@ -52,7 +34,7 @@
                 </div>
                 <nav class="navbar navbar-dark bg-dark fixed-top">
                     <div class="container-fluid">
-                      <a class="navbar-brand" href="#">SCENET</a>
+                        <a class="gugi-font navbar-brand" href="#index.html">Scenet</a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                         <span class="navbar-toggler-icon"></span>
                       </button>
@@ -72,8 +54,12 @@
                                 SCENT
                               </a>
                               <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="#">Best</a></li>
-                                <li><a class="dropdown-item" href="#">woody</a></li>
+                                <li class="dropdown-item"><a href="best.html">Best</a></li>
+                                <li><a class="dropdown-item" href="#">Woody</a></li>
+                                <li><a class="dropdown-item" href="#">Floral</a></li>
+                                <li><a class="dropdown-item" href="#">Citrus</a></li>
+                                <li><a class="dropdown-item" href="#">Musk</a></li>
+                                
                               </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -81,8 +67,8 @@
                                   SCENE
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark">
-                                  <li><a class="dropdown-item" href="#">찾고싶은</a></li>
-                                  <li><a class="dropdown-item" href="#">추천하는</a></li>
+                                  <li><a class="dropdown-item" href="find.html">찾고싶은</a></li>
+                                  <li><a class="dropdown-item" href="review.html">추천하는</a></li>
 
                                  <!-- 글 나눔 코드 -->
                                   <!-- <li>
@@ -107,6 +93,7 @@
             <!-- <h1 class = "display-3 fw-bold mb-5">SCENET</h1>
             <h5 class = "fs-2 mb-3">Your scent </h2> -->
 
+                
             <h1 class="title-home">We find</h1> 
             <h2 class="sub-title-home">Your Scent</h2>
             <h3 class="sub-title-home">Your Scene</h3>
